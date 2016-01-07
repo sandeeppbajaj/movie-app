@@ -1,0 +1,30 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "Movie App for Unit Testing AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeeppbajaj/movie-app.git"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "Sandeep Bajaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandeeppbajaj/movie-app/issues"
+  },
+  "homepage": "https://github.com/sandeeppbajaj/movie-app#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": "^1.9.19"
+  }
+}
